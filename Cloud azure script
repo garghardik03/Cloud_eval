@@ -1,0 +1,9 @@
+Steps to create html script on azure
+
+install apache using "sudo apt install apache2"
+
+1. open port 80 for http trafiic in inbound rule
+2. copy public ip and run
+3. echo "Hello World" > index.html
+4. sudo mv index.html /var/www/html/
+5. systemctl reload apache2
